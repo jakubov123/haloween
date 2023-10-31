@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<head>
+  <meta charset="UTF-8">
+  <meta name="Author" content="Jakub Widera">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Engine</title>
+</head>
+<style>
+#container{width:960px;margin-left:auto;margin-right:auto;color: aliceblue;}
+body{background-color: rgba(9, 7, 36, 0.87);}
+input{justify-content:center;align-items: center;}
+#jumpscare {position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; cursor: pointer; visibility: hidden;}
+</style>
+<body>
+  <div id="container">
+    <img src="1.png" alt="kotek1" width="400" height="300">
+    <img src="2.png" alt="kotek2" width="400" height="300">
+    <img src="3.png" alt="kotek3" width="400" height="300">
+    <img src="4.png" alt="kotek4" width="400" height="300">
+    <h4>Jeśli chcesz zobaczyć wiecej małych kotów naciśnij przycisk</h4>
+    <h1>Aby zwiększyć wrażenie włącz dźwięk w komputerze!!!</h1>
+<input type="button" onclick="jumpscare();" value="Słodkie małe kotki" class="btn"/> 
+<video id = 'jumpscare' loop="True" >
+    <source src="jumpscare.mp4" type="video/mp4">
+</video>
+</div>
+<source>
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
